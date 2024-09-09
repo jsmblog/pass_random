@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Contraseñas aleatorias</title>
+</head>
+
+<body>
+    <main>
+        <button id="btn-dark-mode">
+            <img width="30px" height="30px" src="./images/luna-creciente.png" alt="icon-dark-mode">
+        </button>
+        <h5 id="display-sms">
+            sms
+        </h5>
+        <h1>
+            Genera contraseñas <span id="txt-per-change">seguras...</span>
+        </h1>
+        <div class="cont">
+            <span id="TXT">
+                ¡ Aquí aparecerá tu contraseña !
+            </span>
+            <h6>
+            </h6>
+            <label>
+                <span class="txt-level"> añade dificultad</span> <br>
+                <input id="input" type="range" min="10" max="30" value="10" step="1"></label>
+            <div>
+                <button id="btn-generate">
+                    Generar
+                </button>
+                <h4 id="copy">
+                    Copiar
+                </h4>
+            </div>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
